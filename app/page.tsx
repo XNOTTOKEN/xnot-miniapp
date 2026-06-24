@@ -83,7 +83,7 @@ const reward = useMemo(() => {
 
 export default function Page() {
   return (
-    <TonConnectUIProvider manifestUrl="/tonconnect-manifest.json">
+    <TonConnectUIProvider manifestUrl="https://xnot-miniapp.vercel.app/tonconnect-manifest.json">
       <MiniApp />
     </TonConnectUIProvider>
   );
